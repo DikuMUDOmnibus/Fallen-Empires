@@ -1,0 +1,125 @@
+#AREA	(CLAN)  Wu-Tang HQ~
+
+#MOBILES
+#29000
+gaia healer~
+Gaia's Healer~
+Gaia's Healer stands here, healing you.
+~
+Gaia's Healer stares back at you.
+~
+2|64 8|32|128|512 1000 S
+10 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#29001
+protector~
+Wu-Tang Protector~
+The Wu-Tang Protector cackles at you, an evil gleam in his eye.
+~
+The Wu-Tang Protector glares at you.
+~
+64 8|32|128|512|8192 -1000 S
+10000 0 0 10d10+900 10d10+900
+0 0
+8 8 1
+#0
+
+
+#ROOMS
+#29000
+Congregation Area~
+You stand in the center of the Wu-Tang HeadQuarters, the neural center of Wu-Tang's operations.
+~
+0 8 0
+D0
+~
+~
+0 -1 29001
+D3
+~
+~
+0 -1 29003
+D5
+~
+~
+0 -1 29005
+S
+#29001
+Healing Suite~
+You are in the clan's healing suite, where Gaia's Healer visits to heal wounded clansmen.
+~
+0 8|1024 0
+D2
+~
+~
+0 -1 29000
+S
+#29002
+A room~
+You are standing in room #29002.
+~
+0 4|8|1024 0
+S
+#29003
+Wu-Tang Meeting Room~
+You are in the Wu-Tang's main meeting room, a place where operations are planned and administered... Could you be next on their agenda?
+~
+0 8 0
+D1
+~
+~
+0 -1 29000
+S
+#29004
+A room~
+You are standing in room #29004.
+~
+0 4|8 0
+S
+#29005
+Portal Room~
+Pick a portal, any portal...
+~
+0 0 0
+D0
+~
+~
+0 -1 2201
+D1
+~
+~
+0 -1 5361
+D2
+~
+~
+0 -1 2658
+D3
+~
+~
+0 -1 25002
+D4
+~
+~
+0 -1 29000
+D5
+~
+~
+0 -1 3001
+S
+#0
+
+#RESETS
+*
+M 1 29000 1 29001			healer. duh.
+*
+M 1 29001 1 29000			...
+S
+
+
+#SPECIALS
+M  29000 spec_cast_cleric			Gaia's Healer
+S
+
+
+#$

@@ -1,0 +1,5 @@
+#! /bin/csh -f
+# Written by Kai.
+# Writes filename to filename.save
+cp $1 $1.save
+echo "$1 successfully backed up."

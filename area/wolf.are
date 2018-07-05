@@ -1,0 +1,167 @@
+#AREA	(CLAN)  Wolf HQ~
+
+
+#MOBILES
+#17700
+Fenris~
+The Fenris Wolf~
+The Fenris Wolf guards these halls.
+~
+The Fenris Wolf guards these halls.  And sneers at your appearance.
+~
+2 2|8|32|512|8192|32768|524288 1000 S
+800 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#0
+
+
+#ROOMS
+#17700
+Wolf Clan Recall~
+You are standing at Wolf Clan Recall
+~
+0 1 0
+D0
+~
+~
+0 -1 17702
+D1
+~
+~
+0 -1 17703
+D2
+~
+~
+0 -1 17701
+D3
+~
+~
+0 -1 17704
+D5
+~
+~
+0 -1 3001
+S
+#17701
+Temple of Gaia~
+You are standing the temple of Gaia.  It is a crude stone structure of post and linter construction.
+~
+0 1024 0
+D0
+~
+~
+0 -1 17700
+S
+#17702
+Wolf Clan Hall~
+You are standing in a large cave, which the tribe sleeps.
+~
+0 1|8|8192 0
+D2
+~
+~
+0 -1 17700
+S
+#17703
+Caern~
+You are standing in a clove of trees.  There is a rock with some rune
+engravings on it.
+~
+0 1|4|1024|8192 0
+D3
+~
+~
+0 -1 17700
+E
+rock engraving rune runes~
+There seems to be a list of spirit gates.
+Staff, Sphinx, Timelord, Arachnos, Hightower, Draconia, Galaxy, Megacity,
+Drow, Canyon, Mahntor.
+~
+T
+timelord~
+$n slowly fades out of existance.~
+Your surroundigs blur and change.~
+all~
+16384 2549 0
+T
+staff~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 25008 0
+T
+sphinx~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 2646 0
+T
+arachnos~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 6200 0
+T
+hightower~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 1312 0
+T
+draconia~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 2201 0
+T
+galaxy~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 9301 0
+T
+megacity~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 8001 0
+T
+drow~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 5100 0
+T
+canyon~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 9201 0
+T
+mahntor~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 2362 0
+S
+
+#17704
+Wolf Clan Meeting Grove~
+You are standing a dark grove of trees.  There seems to be a clearing in the center where there are many animal tracks about.
+~
+0 1|1024|8192 0
+D1
+~
+~
+0 -1 17700
+S
+#0
+
+
+#SPECIALS
+S
+
+
+#$

@@ -1,0 +1,181 @@
+#AREA   (CLAN)  Mage HQ~
+
+
+#MOBILES
+#27500
+healer spellmaster spell mage~
+A master mage~
+A master mage.
+~
+This mage is an older adventurer.  In his day, magic was just being learnt.
+~
+2|64 8|32|128|512|8192 1000 S
+900 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#27501
+mage guardian~
+Mage Guardian~
+The Mage Guardian cackles at you, an evil gleam in his eye.
+~
+The Mage Guardian glares at you.
+~
+64 8|32|128|512|8192 -1000 S
+10000 0 0 10d10+900 10d10+900
+0 0
+8 8 1
+
+#0
+
+
+#ROOMS
+#27500
+Magical Entrance~
+You are standing in the magical large temple.  West is the meeting chambers.  East is where the archmages meditate and sleep.  North is the new spell room.  Up the stairs is where the apprentices stay.  South is back to town.
+~
+0 0 1
+D0
+~
+~
+0 -1 27503
+D2
+~
+~
+0 -1 3001
+D3
+~
+~
+0 -1 27502
+D4
+~
+~
+0 -1 27504
+S
+#27501
+test~
+Make to 3001
+~
+0 0 1
+D0
+~
+~
+0 -1 27500
+S
+#27502
+Meeting chamber~
+This is where the mages meditate on issues like new spells, which books should be printed, or whatever else might be of interest to them.
+~
+0 0 1
+D1
+~
+~
+0 -1 27500
+S
+#27503
+The Archmage Bael's room~
+It is a small, simple, but is where new spells are created by the Archmage Bael one of the greatest mages ever lived.
+~
+0 1024 0
+D2
+~
+~
+0 -1 27500
+S
+#27504
+Apprentice's room~
+This is where the apprentices sleep.  There are no beds, and it seems empty.  On the wall is a book from the ancients.  You might want to take a look at it.
+~
+0 0 0
+D5
+~
+~
+0 -1 27500
+E
+book~
+The writing seems to be a list of areas.  The following are listed: 
+Staff, Sphinx, Timelord, Arachnos, Hightower, Draconia, Galaxy, Megacity, Drow, Canyon, Mahntor.
+~
+T
+timelord~
+$n slowly fades out of existance.~
+Your surroundigs blur and change.~
+all~
+16384 2549 0
+T
+staff~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 25008 0
+T
+sphinx~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 2646 0
+T
+arachnos~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 6200 0
+T
+hightower~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 1312 0
+T
+draconia~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 2201 0
+T
+galaxy~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 9301 0
+T
+megacity~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 8001 0
+T
+drow~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 5100 0
+T
+canyon~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 9201 0
+T
+mahntor~
+$n slowly fades out of existance.~
+Your surroundings blur and change.~
+all~
+16384 2362 0
+S
+
+#0
+
+
+#RESETS
+*
+M 1 27500 1 27503                       A master mage to The Altar
+M 1 27501 1 27503                       Mage guardian to The Altar
+S
+
+
+#SPECIALS
+M  27500 spec_cast_adept                        A master mage
+S
+
+
+#$

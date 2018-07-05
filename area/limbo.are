@@ -1,0 +1,195 @@
+#AREA	Diku    Limbo~
+
+
+#MOBILES
+#1
+Puff~
+Puff~
+Puff the Fractal Dragon is here, contemplating a higher reality.
+~
+
+~
+1 0 1000 S
+26 1 -1 5d10+550 4d6+3
+10000 0
+8 8 2
+#2
+Allen Iverson~
+Allen Iverson~
+Allen Iverson stands here mocking your existance.
+~
+You better not fight me assholes.
+~
+2|64 8|32|128|512|8192|32768|65536|524288|1048576 0 S
+9999 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#0
+
+
+#OBJECTS
+#2
+coin gold~
+a gold coin~
+One miserable gold coin.~
+~
+20 0 1
+1 0 0 0 
+1 0 0
+#3
+coins gold~
+%d gold coins~
+A pile of gold coins.~
+~
+20 0 1
+0 0 0 0 
+1 0 0
+#10
+corpse~
+the corpse of %s~
+The corpse of %s is lying here.~
+~
+23 0 1
+0 0 0 1 
+100 0 0
+#11
+corpse~
+the corpse of %s~
+The corpse of %s is lying here.~
+~
+24 0 0
+0 0 0 1 
+100 0 0
+#12
+head %s~
+the severed head of %s~
+The severed head of %s is lying here.~
+~
+13 0 1|16384
+10 0 12 0 
+5 0 0
+#13
+heart %s~
+the torn-out heart of %s~
+The torn-out heart of %s is lying here.~
+~
+19 0 1|16384
+16 0 13 0 
+2 0 0
+#14
+arm %s~
+the sliced-off arm of %s~
+The sliced-off arm of %s is lying here.~
+~
+19 0 1|16384
+20 0 14 0 
+5 0 0
+#15
+leg %s~
+the sliced-off leg of %s~
+The sliced-off leg of %s is lying here.~
+~
+19 0 1|16384
+20 0 15 0 
+5 0 0
+#16
+turd~
+the steaming turds of %s~
+The steaming turds of %s assail your nostrils.~
+~
+13 0 0
+5 0 0 1 
+1 0 0
+#20
+mushroom~
+a Magic Mushroom~
+A delicious magic mushroom is here.
+~
+~
+19 0 1
+5 0 0 0 
+1 10 0
+#21
+ball light~
+a bright ball of light~
+A bright ball of light shimmers in the air.~
+~
+1 0 1
+0 0 -1 0 
+1 0 0
+#22
+spring~
+a magical spring~
+A magical spring flows from the ground here.~
+~
+25 64 0
+100000 100000 0 0 
+5000 10 0
+#23
+spring blood~
+a blood spring~
+A spring of dark red liquid flows from the ground here.~
+~
+25 64 0
+100000 100000 13 0 
+5000 10 0
+#24
+Basketball~
+a basketball~
+A basketball is lying here.~
+~
+5 1|2|32|128|4096 1|8192
+0 9999 9999 0 
+5 0 0
+#25
+headband~
+a headband~
+A headband is lying here.~
+~
+9 1|2|32|128|4096 1|16
+0 1 6 11 
+5 0 0
+#0
+
+
+#ROOMS
+#1
+The Immortal's Chat Room~
+You are floating in nothing.
+~
+0 4|8 9
+S
+#2
+Limbo~
+You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+~
+0 4|8|1024 1
+S
+#6
+The Dangerous Void of Noid~
+Your senses reel as you gaze around the Void. You feel dizzy as the psychodelic colors swirl before your eyes. Welcome to the Void. -Noid's Void-
+~
+0 4|1024|16384 9
+S
+#0
+
+
+#RESETS
+M 1 1 1 2		Puff
+*
+*
+M 1 2 1 1			Allen Iverson to The Immortal's Chat Room
+E 1 24 100 16
+E 1 25 100 6
+S
+
+
+#SPECIALS
+M  2 spec_breath_acid			Allen Iverson
+S
+
+
+#$

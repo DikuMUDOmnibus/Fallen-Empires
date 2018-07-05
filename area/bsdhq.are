@@ -1,0 +1,183 @@
+#AREA   (CLAN)  BSD HQ~
+
+#MOBILES
+#7700
+Demon~
+The Demon Wolf~
+The Demon Wolf guards these halls.
+~
+The Demon Wolf guards these halls.  And sneers at your appearance.
+~
+2 2|8|32|512|8192|32768|524288 1000 S
+1000 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#0
+
+
+#OBJECTS
+#0
+
+#ROOMS
+#7700
+The Black Spiral Dancers Meeting Room~
+You are in the middle of headquarters of the EVIL Black Spiral
+Dancers.  You sense nothing but the aura of pure EVIL that
+illuminates from the walls, the floor, and from every exit of
+the room.  You try to escape the feeling but the power overwhelms
+you.  You sense the evil.. You LIKE the evil.. You become the evil.
+~
+0 8|16384 0
+D0
+~
+~
+1 -1 7703
+D1
+~
+~
+1 -1 7701
+D2
+~
+~
+1 -1 7704
+D3
+~
+~
+1 -1 7702
+D4
+~
+~
+0 -1 7705
+D5
+~
+~
+0 -1 7706
+S
+
+#7701
+The Black Spiral Dancers Resting Room~
+You stand in the domain where Kaizer and all the evil pups of
+Terror rest.  The room is scattered with the bones of enemy foes
+fallen and bounties for those to come.  If you are in here..
+You should either be a Black Spiral Dancer, Terror, or Dead.
+~
+0 8|1024|8192|16384|32768 0
+D3
+~
+~
+1 -1 7700
+S
+
+#7702
+The Black Spiral Dancers Combat Room~
+Pups of the Mighty Kaizer and of the ultimately Almighty Terror
+come here to train their skills to better impress their god and
+serve to the almighty purpose of the Wyrm.
+~
+0 8|512|8192|16834 0
+D1
+~
+~
+1 -1 7700
+S
+
+#7703
+The Black Spiral Dancers Altar Room~
+This room is dedicated to the worship of Terror, and the greater
+purpose of the Wyrm.  The room is enshrounded in mist and a pure
+sense of unescapable EVIL.  Sit here.. pray .. and worship.. for
+the greater Glory of WYRM!
+~
+0 8|1024|8192|16384 0
+D2
+~
+~
+1 -1 7700
+S
+
+#7704
+The Black Spiral Dancers Portal Room~
+Magic enshrounds this room as well as blurry images that faze in
+and out of lands that you have seen before.  The knowledge of how
+to use these portals is only possessed by those who are deserving
+of it.  Unless you are deserving .. by the time you read this
+room description.. you should be dead.
+~
+0 8|1024|16834 0
+D0
+~
+~
+1 -1 7700
+E
+sign gates~
+The sign seems to be a list of areas.  The following are listed:
+Hightower, Draconia, Galaxy, Sphinx, Member of Staff, Mahntor,
+Midgaard, Doom.
+~
+T
+sphinx~
+$n leaves.~
+You roar so loud when you stop you're somewhere else.~
+all~
+16384 2652 0
+T
+staff~
+$n leaves.~
+You roar so loud when you stop you're somewhere else.~
+all~
+16384 25008 0
+T
+midgaard~
+$n leaves.~
+You roar so loud when you stop you're somewhere else.~
+all~
+16384 3001 0
+T
+ultima~
+$n leaves.~
+You roar so loud when you stop you're somewhere else.~
+all~
+16384 2549 0
+T
+cannabis~
+$n leaves.~
+You roar so loud when you stop you're somewhere else.~
+all~
+16384 30248 0
+S
+
+#7705
+Chief Kaizer's Private Sanctum~
+This is where the CHIEF just chills out.. Don't bother him.
+~
+0 1|4|8|1024|2048|8192|16384|65536 0
+D5
+~
+~
+0 -1 7700
+S
+
+#7706
+Gates of Black Sprial Dancers~
+Need desrip
+~
+0 8|1024|16834 0
+D4
+~
+~
+0 -1 7700
+D5
+~
+~
+0 -1 2355
+S
+#0
+
+#RESETS
+M 1 7700 1 7706              Demon wolf at Entrance
+S
+
+#SPECIALS
+S
+
+#$

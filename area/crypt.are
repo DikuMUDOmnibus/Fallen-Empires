@@ -1,0 +1,709 @@
+#AREA	Shade   Crypt of Chaos~
+
+
+#MOBILES
+#420
+Necromancer~
+Necromancer~
+A necromancer stands at a pulpit, commanding his undead minions.
+~
+A man clad in black robes stands here. He grins slyly from the corner of
+his mouth, turns and begins reading again, a passage from the unholy book
+of the dead.
+~
+2 8|32|128|512|8192 -1000 S
+130 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#421
+animated skeleton~
+An Animated Skeleton~
+A skeleton stands up and moves as if animated by some evil spell.
+~
+What do you expect to see? Its a skeleton... all there is to see are bones!
+~
+32|64 8|32|128|512|8192 -500 S
+125 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#422
+Sheik~
+Sheik~
+Sheik the "Slick Handed" stands here behind a counter.
+~
+Sheik is a former member of a secret group of assassins that used to use
+these crypts as a hideout... that was until they were all killed by the
+undead minions of the catacombs.
+~
+2 8|32|128|512 0 S
+150 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#423
+Big Dawg~
+Big Dawg~
+A huge dog rests here, around its neck is a collar with the inscription
+"Dawg".
+~
+A large dog named "Dawg"? Now this dog is huge, but who would actually
+name their dog, Dawg?
+~
+2 8|32|128|512 -700 S
+145 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#424
+purple worm~
+a Purple Worm~
+A large purple worm emerges from a hole in the floor.
+~
+Well, you've probably sen a worm... make it purple, multiply it by 1000,
+add a large mouth full of razor sharp teeth, and a really bad case of bad
+breath and thats what you've got on your hands.
+~
+4|32|64 8|32|128|512 -200 S
+140 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#425
+sun demon~
+the Sun Demon~
+A Demon floats around the room, glowing bright as the sun itself.
+~
+This is the spirit of the previously named "Warrior of the Sun", he
+obviously didn't like you disturbing his eternal rest.
+~
+2 8|32|128|512 -1000 S
+150 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#426
+flame demon~
+the Flame Demon~
+A demon floats around the room, it is completely engulfed in flames.
+~
+The spirit of the deceased "Warrior of Flames" doesn't seem to notice
+you, maybe he's got alot on his mind...
+~
+2 8|32|128|512 -1000 S
+150 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#427
+rotting zombie~
+a Rotting Zombie~
+A rotting corpse is walking around the room.
+~
+A mindless, rotting corpse. These zombies are under the control of the
+spell of some evil sorcerer.
+~
+2|32 8|32|128|512 -200 S
+135 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+#428
+vampire assassin~
+a Vampire Assassin~
+A cloaked assassin stalks around the shadows.
+~
+A vampire with a sly personallity... this guy is a pretty energetic foe.
+~
+2|32 8|32|128|512|32768|65536 -400 S
+145 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#429
+giant troll~
+a Giant Troll~
+A giant troll stands on the bridge, blocking access to the other side.
+~
+This troll looks to have been cross-bread with a giant. It is three times
+the size of a normal troll, and looks at least ten times as dangerous.
+~
+2|32 8|32|128|512 -1000 S
+150 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#430
+dan'aar~
+Dan'aar~
+A shadowy figure booms in a great voice, "I am Dan'aar, Warrior of Power!".
+~
+Dan'aar, warrior of Power was the greatest of the spiritual warriors to
+ever perish. He does not look happy.
+~
+2|32 8|32|128|512 -1000 S
+150 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#0
+
+
+#OBJECTS
+#420
+small golden pin~
+a small golden pin~
+A small golden pin lies here, obviously dropped by someone with no brain.~
+~
+18 32 1
+0 1 6 11 
+1 0 0
+#421
+golden chest~
+a golden chest~
+A golden treasure chest lies in the center of the room.~
+~
+15 0 0
+0 1 6 11 
+0 0 0
+#422
+sunbeam~
+a Sunbeam~
+A beam of pure sunlight lays here in the form of a key.~
+~
+18 1 1
+0 1 6 11 
+1 0 0
+#423
+sun sabre~
+the Sun Sabre~
+A sabre forged with the light and the heat of the sun lies here burning
+brightly.~
+~
+5 1 1|8192
+0 1 6 3 
+15 0 0
+A
+1 0
+#424
+sun chest~
+the Sun Chest~
+A chest in the center of the floor shines as bright as the sun.~
+~
+15 1 0
+1000000 14 9902 11 
+0 0 0
+#425
+green flame~
+a Green Flame~
+A green flame floats around, its in the shape of a key.~
+~
+18 1 1
+0 1 6 11 
+5 0 0
+#426
+jar o' fireflies~
+a Jar o' Fireflies~
+A jar rests on the floor, fireflies of eternal life have been placed inside.~
+~
+1 1 1
+0 1 -9 11 
+10 0 0
+A
+13 0
+#427
+shadow crystal~
+a Shadow Crystal~
+A crystal bound with the plague of darkness floats here.~
+~
+18 1 1
+0 1 6 11 
+5 0 0
+#428
+shadow band~
+a Shadow Band~
+A small band about the size of a bracelet rests here, it glows with a
+shadowy aura.~
+~
+9 1 1|4096
+0 1 6 11 
+3 0 0
+A
+18 10
+A
+19 10
+#429
+dusty bone key~
+a Dusty Bone Key~
+A key made of bone lies here, it is caked with a thick layer of dust.~
+~
+18 1 1
+0 1 6 11 
+1 0 0
+#430
+dan'aars key~
+dan'aars Key~
+A key lies here, engraved with the words "Dan'aar".~
+~
+18 1 1
+0 1 6 11 
+20 0 0
+#431
+dan'aars force field~
+dan'aars Force Field~
+A field radiating abundant magic hovers here.~
+~
+9 1 1|1024
+0 1 6 11 
+30 0 0
+A
+12 200
+A
+13 200
+A
+14 200
+#0
+
+
+#ROOMS
+#420
+Entrance to the Crypts~
+You stand at the entrance of the crypts. Huge stone statues tower high
+above the cracked walls. Something scurries off into a fissure near the
+door, one that serves as another way to gain entry for smaller creatures
+whom require access to these crypts to replenish their famished bodies. A
+small plaque hangs above the old and rusty door.
+~
+0 4 1
+D0
+Before you stands a huge rusty iron door,
+screams can be heard comming from behind
+it... hey wait... aren't crypts for the
+dead?~
+Rusty Rust Rus Ru R Door Doo Do D~
+1 -1 421
+D4
+~
+~
+0 0 4773
+E
+plaque plaqu plaq pla pl p~
+This zone was created and built in August of 1999 by Shade. It is an all
+original area, and was strictly drawn from the mind of the builder, no
+where else.~
+S
+#421
+Hallway into the Crypts~
+This dark, damp hallway is lit only by a very few torches scattered
+around the walls of the hallway. A few sets of red eyes stare at you from
+the shadowy cracks and hallow cavities in the walls.
+~
+0 1|8 0
+D0
+~
+~
+0 -1 422
+D2
+Before you stands a huge rusty iron door,
+screams can be heard comming from behind
+it... hey wait... aren't crypts for the
+dead?~
+Rusty Rust Rus Ru R Door Doo Do D~
+1 -1 420
+S
+#422
+A Dark Chapel~
+You emerge in a lit up room, fairly larger than the hallways you used to
+get here. Large pews, and a pulpit set high above the pews are set very
+neatly among he room. Looks like you've reached a dead end.
+~
+0 1|8 0
+D2
+~
+~
+0 -1 421
+D5
+~
+pulpit pulpi pulp pul pu p~
+2 420 423
+E
+pulpit pulpi pulp pul pu p~
+A small wooden pulpit is set high above the pews, the only thing out of
+the ordinary is a small pin hole set in the senter of a golden symbol.~
+S
+#423
+Below the Pulpit~
+As you decend the ladder into the emense darkness of the hole below you,
+you can feel things randomly brush up against your body, some hairy, some
+slimy, but none that you are able to see.
+~
+0 1|4|8 0
+D4
+~
+pulpit pulpi pulp pul pu p~
+2 420 422
+D5
+~
+~
+0 -1 424
+S
+#424
+The Bottom of the Climb~
+Apon reaching the bottom of the ladder you feel the crunching of
+something under your feet. As you look down, you notice the floor is
+covered by giant bones... ones that look like they were gnawed on.
+~
+0 1|8 0
+D0
+~
+~
+0 -1 425
+D4
+~
+~
+0 -1 423
+S
+#425
+A Large Smelly Dump~
+Yuck! This place smells horrible! Trash and decomposing limbs make up the
+floor of this gross dump. Howls can be heard from all directions, the
+north, south, east, and the west, wonder what could be making all that
+noise.
+~
+0 1|8 0
+D0
+~
+~
+0 -1 432
+D1
+~
+~
+0 -1 429
+D2
+~
+~
+0 -1 424
+D3
+~
+~
+0 -1 426
+D5
+~
+~
+0 -1 435
+S
+#426
+A Bright Corridor~
+You walk along a well lit path, there are no torches, or any man made
+light sources, only moss covering the walls that glows as brightly as the
+sun. It is almost blinding.
+~
+0 1|8 0
+D1
+~
+~
+0 -1 425
+D3
+~
+~
+0 -1 427
+S
+#427
+The Sun Room~
+You stand in a room lit up by more of the glowing moss. It is so bright
+you can barely stand to keep your eyes open. There seems to be alot of
+heat radiating from the moss in this room. A tall tombstone sits in the
+center of the room.
+~
+0 1|8 0
+D1
+~
+~
+0 -1 426
+D5
+A symbol of the sun is here on the floor,
+a ring can be seen in the center of it. ~
+sun symbol~
+2 422 428
+S
+#428
+Below the Sun Room~
+You have destroyed the Sun Demon, and now it is time to claim his
+treasure... step forth and claim your prize. You are now the new owner
+of... well, i'm not going to give it away! Get it! Get it!
+~
+0 1|8 0
+D4
+A symbol of the sun is here on the floor,
+a ring can be seen in the center of it. ~
+sun symbol~
+2 422 427
+S
+#429
+A Hot Corridor~
+Flames border the walls of this thin hall. You have to be extra careful
+not you burn yourself. You can feel the extreme heat sear any hair you
+might still have left on your body.
+~
+0 1|8 0
+D1
+~
+~
+0 -1 430
+D3
+~
+~
+0 -1 425
+S
+#430
+The Fire Room~
+You stand in the room of the previously named "Warrior of Flames". Flames
+scale the walls of this room, and the heat is just too much to stand. A
+large, red tombstone sits in the center of the room.
+~
+0 1|8 0
+D3
+~
+~
+0 -1 429
+D5
+The symbol of the flame is etched onto the
+floor, you notice a small ring in the
+center.~
+flame symbol~
+2 425 431
+S
+#431
+Below the Fire Room~
+You have defeated the Flame Demon... claim your prize! Take it! Take it!
+Come on, you know you want to!
+~
+0 1|8 0
+D4
+The symbol of the flame is etched onto the
+floor, you notice a small ring in the
+center.~
+flame symbol~
+2 425 430
+S
+#432
+A Shadowy Corridor~
+You stand in a corridor that is completely dark. Only your light allows
+you to view even the slightest part of it. Towards the north you can see
+something moving, though your not sure because its so dark.
+~
+0 1|8 0
+D0
+~
+~
+0 -1 433
+D2
+~
+~
+0 -1 425
+S
+#433
+The Shadow Room~
+Your darkened crusade hasn't ended yet... this room is just as dark and
+shadowy as the previous one. The form of a tombstone can be made out
+through the emense darkness that plagues this room.
+~
+0 1|8 0
+D2
+~
+~
+0 -1 432
+D5
+~
+shadow symbol~
+2 -1 434
+S
+#434
+Below the Shadow Room~
+Yeah! You did it! You defeated the Shadow
+Demon! Now you deserve to take his treasure! Go on! Its yours now!
+~
+0 1|8 0
+D4
+~
+shadow symbol~
+2 427 433
+S
+#435
+Descent to the Tombs~
+You are now making your way down a ladder, glowing moss covers the sides
+of the ladder making the descent easier. Down below the floor is lit up
+with a bluish color, and steam rises from it.
+~
+0 1|8 0
+D4
+~
+~
+0 -1 425
+D5
+~
+~
+0 -1 436
+S
+#436
+The Tombs~
+Rotting corpses, skeletons, and coffins line the room. The floor is made
+of ice, which slows the deterioration process, and keeps the corpses
+fresher longer. The steam rising from the floor makes it fairly hard to
+see, but you can still make out most of the things around the room.
+~
+0 1|8 0
+D3
+~
+~
+0 -1 437
+D4
+~
+~
+0 -1 435
+S
+#437
+The Pit of Despair~
+As you emerge from the casket, the room opens up into a large pit. It
+seems the only way across is to take a small rope bridge to the opposite
+side. Wonder just how sturdy this bridge is.
+~
+0 1|4|8 0
+D0
+~
+~
+0 -1 438
+D1
+~
+~
+0 -1 436
+S
+#438
+End of the Bridge~
+Now that you've finally crossed the bridge, you can feel at least a
+little bit safer. No longer is the ground beneath your feet unstable. A
+dusty door blocks the only way forward.
+~
+0 1|8 0
+D0
+~
+dusty door~
+2 429 439
+D2
+~
+~
+0 -1 437
+S
+#439
+Chamber of Dan'aar~
+Candles surround a tombstone made of the finest marble. Roses have been
+placed near the foot of the carved stone. There is an engraving on the
+stone grave marker, they are old and barely readable anymore. under the
+tombstone, you notice a small opening.
+~
+0 1|8 0
+D2
+~
+dusty door~
+2 429 438
+D5
+~
+tombstone tomb stone~
+2 430 440
+E
+tombstone tombston tombsto tombst tombs tomb tom to t stone ston sto st s~
+"Rest in peace
+              our galliant
+              hero Dan'aar"
+
+
+~
+S
+#440
+Below Dan'aars Tomb~
+You have descended to one of the deepest parts of Dan'aars tomb. Below you
+you see the end of the crypts, the end of your perilous journey.
+~
+0 1|8 0
+D0
+~
+~
+0 -1 441
+D4
+~
+tombstone tomb stone~
+2 430 439
+S
+#441
+Shiek's Place~
+You are now standing in the store of a rogue assassin. Shiek has quite a
+history, but somehow managed to get a holyman to bless a spot for her to
+set up her shop.
+~
+0 1|4|8|1024 0
+D2
+~
+~
+0 -1 440
+S
+#0
+
+
+#RESETS
+*
+M 1 420 1 422			Necromancer to A Dark Chapel
+G 1 420 100
+D 1 422 5 2			; A Dark Chapel Lock Down
+*
+M 1 421 10 422			An Animated Skeleton to A Dark Chapel
+*
+M 1 424 5 425			a Purple Worm to A Large Smelly Dump
+*
+M 1 423 1 424			Big Dawg to The Bottom of the Climb
+*
+M 1 425 1 427			the Sun Demon to The Sun Room
+G 1 422 100
+O 1 421 100 428			a golden chest to Below the Sun Room
+P 1 421 100 421			the Sun Sabre to container golden chest
+O 1 424 100 428			the Sun Chest to Below the Sun Room
+P 1 424 100 424			the Sun Sabre to container sun chest
+D 1 427 5 2			; The Sun Room Lock Down
+O 1 424 100 428			the Sun Chest to Below the Sun Room
+D 1 427 5 2			; The Sun Room Lock Down
+O 1 423 100 428			the Sun Sabre to Below the Sun Room
+*
+M 1 426 1 430			the Flame Demon to The Fire Room
+G 1 425 100
+O 1 426 100 431			a Jar o' Fireflies to Below the Fire Room
+D 1 430 5 2			; The Fire Room Lock Down
+D 1 434 4 2			; Below the Shadow Room Lock Up
+O 1 428 100 434			a Shadow Band to Below the Shadow Room
+*
+M 1 427 5 436			a Rotting Zombie to The Tombs
+*
+M 1 428 5 436			a Vampire Assassin to The Tombs
+*
+M 1 429 1 437			a Giant Troll to The Pit of Despair
+*
+M 1 430 1 439			Dan'aar to Chamber of Dan'aar
+G 1 430 100
+D 1 438 0 2			; End of the Bridge Lock North
+D 1 440 4 2			; Below Dan'aars Tomb Lock Up
+O 1 431 100 440			Dan'aars Force Field to Below Dan'aars Tomb
+*
+M 1 422 1 441			Sheik to Shiek's Place
+*
+M 1 427 3 421			a Rotting Zombie to Hallway into the Crypts
+S
+
+
+#SHOPS
+422 5 9 10 2 15 125 100 0 23			(mobile is from another zone)
+0
+
+
+#SPECIALS
+M  420 spec_cast_undead			Necromancer
+M  421 spec_thief			An Animated Skeleton
+M  422 spec_cast_adept			Sheik
+M  423 spec_fido			Big Dawg
+M  424 spec_fido			a Purple Worm
+M  425 spec_breath_fire			the Sun Demon
+M  426 spec_breath_fire			the Flame Demon
+M  427 spec_fido			a Rotting Zombie
+M  428 spec_thief			a Vampire Assassin
+M  430 spec_breath_any			Dan'aar
+S
+
+
+#$

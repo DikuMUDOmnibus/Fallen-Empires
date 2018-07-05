@@ -1,0 +1,79 @@
+Fallen Empires Release 1.0
+Tuesday 12 October 1999
+
+---> Introduction
+
+Welcome to Fallen Empires, a highly modified version of the GodWars 1996
+codebase. May hours of work have been put into this code so please
+respect our work and do not infringe upon any copyrights.
+
+
+---> Copyright and License
+
+Fallen Empires is based off of the original Diku Mud and the Merc Diku
+Mud and is subject to their copyright and license agreements (license.doc
+and license.txt, respectively). Additions and modifications to the code
+are copyright 1999 by Kai, Rune, and the other Fallen Empires immortals.
+
+
+In order for you to run a MUD using our codebase you must adhere to Diku
+Mud's license agreement, Diku Merc Mud's license agreement, and our own
+license agreement.
+
+
+---> Contents of the Release
+
+area		Area files.
+doc		Documentation.
+log		Log files    (empty).
+player		Player files (empty).
+player/backup	Player backup files (empty).
+player/store	Player store files (empty).
+src		Source files.
+
+
+
+---> Installation
+
+(1) Uncompress the release.
+
+	gunzip fe-v10.tar.gz
+	tar xvf fe-v10.tar
+
+(2) Go to the 'src' directory.
+	cd ~/.fallen/src
+
+(3) Run the Makefile.
+
+	make
+
+    This is should take between 5 and 15 minutes depending on the speed of
+    your server. If you run across any compilation problems make changes
+    to the code accordingly. This code is provided as is without support.
+
+(4) Run the MUD Server.
+
+	cd ../area
+	startup &
+	telnet localhost 9999
+	
+(5) To make your first immortal character, just start as a mortal
+    character, kill 5 mobs then save, and then change the level and
+    trust fields of your player file to 12.
+
+(6) Read 'license.doc', 'license.txt', and 'license.fe'. Be sure to e-mail
+    Fallen Empires letting them know you are using their code.
+  
+
+---> What's Next?
+
+The Fallen Empires code is constantly being revised and modified. We
+will furnish new versions to the public when we see that an important
+change in the code has occurred.
+
+If you have any questions of comments about the code please e-mail us at
+kai@grex.org
+
+Thanks and Have Fun,
+Kai, Rune, and the rest of the Fallen Empires Immortals.
+Fallen Empires  10/12/99

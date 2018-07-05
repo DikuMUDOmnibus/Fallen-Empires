@@ -1,0 +1,5 @@
+Do a grep "CHANGE ME" *.c|*.are in ../src and ../area respectively to find
+MUD specific information to change.
+
+Thanks,
+Kai

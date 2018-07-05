@@ -1,0 +1,332 @@
+                              Rune's Mage Documents
+
+This document SHOULD help you create mage spellbooks and a little on how
+mage spells and skills work.
+
+
+************************************************************************
+************************************************************************
+CHAPTER 1---------------------------------------------------------Basics
+************************************************************************
+************************************************************************
+
+	This chapter is the basics on the How-to's of mageing.
+
+Spells: 
+	Polymorph: allows you to transform into certain animals [c 'poly'
+	<type of animal>]
+
+	Find Familiar: allows you to create a certain animal and command
+	it around. [c 'find familiar' <type of animal>]
+
+	Major Creation: allows you to create books, pages, pens, and
+	runes. [c 'maj' book] [c 'maj' page] [c 'maj' pen] [c 'maj' rune
+	<type of rune>]
+	
+	Insert Page: cast to insert a page into a book. [c 'ins' <page>
+	<book>]
+
+	Remove Page: cast to remove the page that your turned to in your
+	book. [c 'remove page' <book>]
+
+	Copy: use to copy a rune to a page, all pages must have a rune
+	copied to it. [c 'copy' <rune> <page>]
+
+Wizpowers: 
+
+	Fcommand ( [ ): use this to command your familiar. [ [ <familiar>
+	<command>]
+
+	Chant: mages dont cast spells, they chant from their books [chant
+	<book> <target>]
+
+	 Unpolymorph: type to turn yourself back into a mage after casting
+	polymorph
+
+Tips:
+
+	All pages must have a rune copied to it, the 'rune of mastery' for
+	most spells. There must be a period ( . ) after every message
+	line. For create object or mob spells, be sure to spell
+	everything perfect or it won't work.
+
+************************************************************************
+************************************************************************
+CHAPTER 2-----------------------------------------------Damage Spells
+************************************************************************
+************************************************************************
+
+Global:
+
+	c 'maj' page
+	c 'maj' rune mastery (if you already have one, don't cast this)
+	c 'copy' mastery page
+	write page title <title>  (ex. Deathray)
+	write page line start.damage.spell
+	write page line victim.target
+	write page line global.target
+	write page line min.damage: <minimum damage> (ex. 100)
+	write page line max.damage: <maximum damage> (ex. 500)
+	write page line message.1: <name of spell.> (ex. Deathray.)
+	write page line message.2: <message to caster.> (ex. You send a giant Deathray at $N.)
+	write page line message.3: <message to everyone else in the room> (ex. Chunk sends a Deathray at $N.)
+	write page line next.page
+	write page line end.spell
+
+Congradulations, just write about four of that spell then skip the
+next.page line, and insert into a book, your first spellbook!
+
+Local:
+Same as global spells, just drop the global.target line. (spell will only
+work in the room you're in)
+
+Area Affect:
+Same as global, just drop the victim.target and the global.target.
+add in:	
+	write page line area.affect
+	write page line no.players (won't touch any human player), or
+	not.caster
+	(will hurt anyone or thing in the room your in, but not the caster)
+
+************************************************************************
+************************************************************************
+CHAPTER 3--------------------------------------Teleport and Summon
+************************************************************************
+************************************************************************
+Teleport Mob or Player:
+
+	start.action.spell
+	victim.target
+	global.target
+	move
+	message.1: You vanish in a puff of smoke.
+	message.2: $n vanishes in a puff of smoke.
+	message.3: $n appears in a puff of smoke.
+	end.spell
+
+Teleport Object:
+Same as teleport mob or player, just substitute victim.target for
+object.target.
+
+Summon Mob or Player:
+
+	start.action.spell
+	victim.target
+	global.target
+	move
+	reversed
+	message.1: You vanish in a puff of smoke.
+	message.2: $N vanishes in a puff of smoke.
+	message.3: $N appears in a puff of smoke.
+	end.spell
+
+Summon Object:
+Same as summon mob or player, just substitute victim.target for
+object.target.
+
+************************************************************************
+************************************************************************
+CHAPTER 4---------------------------Trains, Heals, and Boost Spells 
+************************************************************************
+************************************************************************
+Train:
+This will lower a players hit, mana, and movement for training purposes.
+	
+Train:
+ 
+	start.affect.spell
+	victim.target
+	global.target
+	apply: hp
+	apply: mana
+	apply: move
+	bonus: 100
+	reversed
+	duration: 5
+	message.1: Train.
+	message.2: Train.
+	message.3: Train.
+	end.spell
+
+Super-Train:
+Same as Train, just substitute bonus: 100 for bonus: 500.
+
+Boost:
+
+	start.affect.spell
+	victim.target
+	global.target
+	apply: hp
+	apply: mana
+	apply: move
+	apply: hit
+	apply: dam
+	apply: ac
+	bonus: 100
+	duration: 50
+	message.1: Boost.
+	message.2: Boost.
+	message.3: Boost.
+	end.spell
+
+Super-Boost:
+Same as Boost, just substitute bonus: 100 for bonus: 500.
+
+Heal:
+
+	start.damage.spell
+	victim.target
+	global.target
+	min.damage: 100
+	max.damage: 100
+	reversed
+	message.1: Heal.
+	message.2: Heal.
+	message.3: Heal.
+	end.spell
+
+Tip: You can put color in your messages :-)
+
+************************************************************************
+************************************************************************
+CHAPTER 5--------------------------------------------------Misc. Spells
+************************************************************************
+************************************************************************
+
+Still:
+	start.affect.spell
+	victim.target
+	affect: curse
+	affect: web
+	affect: blind
+	apply: hit
+	apply: dam
+	bonus: 100
+	reversed
+	duration: 10
+	message.1: you 'still' $N
+	message.2: you feel weaker
+	message.3: $n stills $N
+	end.spell
+
+Sight:
+
+	start.affect.spell
+	victim.target
+	global.target
+	affect: detect.invis
+	affect: detect.hidden
+	affect: detect.evil
+	affect: infravision
+	affect: shadowsight
+	duration: 100
+	message.1: Sight.
+	message.2: Sight.
+	message.3: Sight.
+	end.spell
+
+Create:
+
+	start.action.spell
+	object.target
+	object: a Cybertronic Defense Band
+	message.1: A gift appears.
+	message.2: A gift appears.
+	message.3: A gift appears.
+	end.spell
+
+
+************************************************************************
+************************************************************************
+CHAPTER 6---------------------------------------------------Commands
+************************************************************************
+************************************************************************
+
+start.damage.spell = damage spell
+start.affect.spell = affect spell
+start.action.spell = action spell
+area.affect = affects the whole room
+victim.target = target is a player or mob
+object.target = target is an object
+global.target = target can be anywhere except a safe room
+not.caster = spell does not affect the caster
+no.players = spell does not affect any players
+second.victim = second parameter is another victim
+second.object = second parameter is another object
+move = spell moves something
+reversed = spell has reverse affect
+min.damage: <num> = minimum damage spell does
+max.damage: <num> = maximum damage spell does
+mob: <short desc.> = short description of mob being created
+object: <short desc.> = short description of object being created
+apply: <str/ dex/ wis/ int/ con/ hit/ dam/ ac/ hp/ mana/ move/ save>
+affect: <blind/ invis/ detect.invis/ detect.magic/ detect.hidden/
+         detect.evil/ shadowplane/ sanct/ faerie.fire/ infravision/ curse/
+         fly/ passdoor/ shadowsight/ web/ contraception>
+bonus: <num> = how great the apply text works
+duration: <num> = how long the spell lasts
+message.1: <text>
+message.2: <text>
+message.3: <text>
+spell.first = performs the next page before the spell
+next.page = the spell on the next page is automatically cast after
+end.spell = the spell ends
+
+************************************************************************
+************************************************************************
+CHAPTER 7------------------------------------------Message Meanings
+************************************************************************
+************************************************************************
+
+Damage Spells:
+ 
+	message.1: damage type. (ex. fireball, lightning bolt, etc. )
+	message.2: message to caster.
+	message.3: message to everyone else in the room.
+
+Affect Spells:
+
+	message.1: message to caster.
+	message.2: message to victim.
+	message.3: message to everyone else.
+
+Action Spells:
+
+	message.1: message to caster.
+	message.2: message to others.
+	message.3: message to others at destination. (for move spells)
+
+$n = your name
+$N = their name
+$e = he or she
+$s = his or her
+$m = him or her
+
+
+************************************************************************
+************************************************************************
+CHAPTER 8---------------------------------------------------Rune Spells
+************************************************************************
+************************************************************************
+
+*--------------------------------------------------------*
+|    Rune    |          Glyph          |        Sigil    |
+*--------------------------------------------------------*
+ EARTH                DESTRUCTION               AREA
+ AIR                  DESTRUCTION               AREA
+ MIND                 CONTROL                   TARGETING
+ WATER                PROTECTION                SELF
+ SPIRIT               TRANSPORTATION            SELF
+ SPIRIT               PROTECTION                OBJECT
+ LIGHT                CREATION                  AREA
+ DARK                 ENHANCEMENT               TARGETING
+ MIND                 ENHANCEMENT               TARGETING
+ SPIRIT               ENHANCEMENT               TARGETING
+ LIFE                 SUMMONING                 AREA
+ FIRE                 DESTRUCTION               TARGETING
+ LIFE                 ENHANCEMENT               TARGETING
+ DEATH                SUMMONING                 AREA
+ MIND                 INFORMATION               OBJECT
+ MIND                 INFORMATION               OBJECT
+----------------------------------------------------------
+These are the combos for rune spells. Guess and test.

@@ -1,0 +1,159 @@
+#AREA	(ARENA) The Arena~
+
+
+#ROOMS
+#50
+The Arena (1)~
+You are standing in a blood drenched room.
+~
+0 131072 0
+D1
+~
+~
+0 -1 51
+D2
+~
+~
+0 -1 53
+S
+#51
+The Arena (2)~
+You are standing in a blood drenched room.
+~
+0 131072 0
+D1
+~
+~
+0 -1 52
+D2
+~
+~
+0 -1 54
+D3
+~
+~
+0 -1 50
+S
+#52
+The Arena (3)~
+You are standing in a blood drenched room.
+~
+0 131072 0
+D2
+~
+~
+0 -1 55
+D3
+~
+~
+0 -1 51
+S
+#53
+The Arena (4)~
+You are standing in a blood drenched room.
+~
+0 131072 0
+D0
+~
+~
+0 -1 50
+D1
+~
+~
+0 -1 54
+D2
+~
+~
+0 -1 56
+S
+#54
+The Arena (5)~
+You are standing in a blood drenched room.
+~
+0 131072 0
+D0
+~
+~
+0 -1 51
+D1
+~
+~
+0 -1 55
+D2
+~
+~
+0 -1 57
+D3
+~
+~
+0 -1 53
+S
+#55
+The Arena (6)~
+You are standing in a blood drenched room.
+~
+0 131072 0
+D0
+~
+~
+0 -1 52
+D2
+~
+~
+0 -1 58
+D3
+~
+~
+0 -1 54
+S
+#56
+The Arena (7)~
+You are standing in a blood drenched room.
+~
+0 131072 0
+D0
+~
+~
+0 -1 53
+D1
+~
+~
+0 -1 57
+S
+#57
+The Arena (8)~
+You are standing in a blood drenched room.
+~
+0 131072 0
+D0
+~
+~
+0 -1 54
+D1
+~
+~
+0 -1 58
+D3
+~
+~
+0 -1 56
+S
+#58
+The Arena (9)~
+You are standing in a blood drenched room.
+~
+0 131072 0
+D0
+~
+~
+0 -1 55
+D3
+~
+~
+0 -1 57
+S
+#0
+
+
+#$
+

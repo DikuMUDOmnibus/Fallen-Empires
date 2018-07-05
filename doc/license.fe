@@ -1,0 +1,26 @@
+Fallen Empires Release 1.0
+Tuesday 12 October 1999
+
+---> Copyright and License Terms
+
+Fallen Empires is based off of the original Diku Mud and the Merc Diku
+Mud and is subject to their copyright and license agreements (license.doc 
+and license.txt, respectively). Additions and modifications to the code
+are copyright 1999 by Kai, Rune, and the other Fallen Empires immortals.
+
+
+In order for you to run a MUD using our codebase you must adhere to Diku
+Mud's license agreement, Diku Merc Mud's license agreement, and our own
+license agreement.
+
+Our license agreement terms are:
+* You must e-mail Kai at kai@grex.org telling us that you are running a
+  version of our code.
+* You must include the 'HELP GODWARS' file.
+* You must include the 'HELP FE' file.
+* You must include our names in the login sequence...
+  EXAMPLE: ** Fallen Empires created by the FE Coding Crew **
+
+
+Please follow the license agreement terms. They're very simple and don't
+cause any harm.
